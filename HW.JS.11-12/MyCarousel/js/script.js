@@ -1,0 +1,5 @@
+$(function() {
+$('.mycarousel').carousel({
+
+});
+});

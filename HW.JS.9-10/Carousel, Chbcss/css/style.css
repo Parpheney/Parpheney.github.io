@@ -1,0 +1,26 @@
+body{
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.newCheck {
+width: 17px;
+height: 17px;
+display: inline-block;
+cursor: pointer;
+background: url('../img/checkbox-sprite.png');
+overflow: hidden;
+margin-left: 15px;
+margin-top: 3px;
+}
+.newChecked {
+	background-position:0 -16px;
+}
+input[type=checkbox] {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+.newCheckDisabled {
+	background-image: url('../img/checkbox-sprite.png');
+  background-position:0 -47px;
+}

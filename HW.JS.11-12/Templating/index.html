@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>document</title>
+    <link rel="stylesheet" href="css/st.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/tmpl.js"></script>
+    <script src="js/Script.js"></script>
+  </head>
+  <body>
+
+    <script type="text/html" id="profile">
+          <div class="parent">
+            <h3><%=title%></h3>
+            <img src="<%=photo %>" alt="" />
+            <p><%=profile[0].child%> </p>
+            <div class="child"><p><%=profile[1].child%> </p> <ul><% for ( var i = 0; i < list.length; i++ ) {%>
+
+              <li> <%=list[i]%> </li>
+                <% } %>
+                </ul></div>
+              <% for( var i = 2; i < profile.length; i++ ) {%><div class="child"><p class="content"><%=profile[i].child%></p>
+              <p class="contact"><%=profile[i].contact %> <a href="<%=profile.url%>" target="_blank"><%=profile[i].link%></a> </p>
+            </div><% } %>
+      </div>
+    </script>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+
+nav{
+padding: 10px 0;
+background-color: rgb(38, 152, 43);
+font-family: Tahoma,Arial,sans-serif;
+}
+.menu {
+list-style:none;
+}
+nav ul li {
+display:inline-block;
+position:relative;
+}
+ li ul {
+background-color:rgb(72, 166, 96);
+position:absolute;
+top:40px;
+width:200px;
+transition:background-color 3s;
+}
+ li ul:hover{
+   background-color: rgb(158, 204, 85);
+ }
+nav li li {
+position:relative;
+display:block;
+}
+nav li li ul {
+position:absolute;
+top: 0;
+left:200px;
+}
+a {
+line-height:40px;
+padding:0 12px;
+margin:0 12px;
+color:black;
+text-decoration:none;
+display:block;
+}
+a:hover,a:focus,a:active {
+color:rgba(195, 106, 33, 0.74);
+}
+nav li li a {
+border-bottom:solid 1px rgb(200,50,50);
+margin:0 10px;
+}
+nav li li:last-child a {
+border-bottom:none;
+}
+nav li.downmenu > a {
+background-image:url('../img/arrow-down.png');
+background-position:right 16px;
+background-repeat: no-repeat;
+}
+nav li li.downmenu > a{
+background-image:url('../img/arrow-right.png');
+background-position:right 16px;
+background-repeat: no-repeat;
+}
+.newCheck {
+width: 17px;
+height: 17px;
+display: inline-block;
+cursor: pointer;
+background: url('../img/checkbox-sprite.png');
+overflow: hidden;
+margin-left: 15px;
+margin-top: 3px;
+}
+.newChecked {
+	background-position:0 -16px;
+}
+input[type=checkbox] {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+.newCheckDisabled {
+	background-image: url('../img/checkbox-sprite.png');
+  background-position:0 -47px;
+}

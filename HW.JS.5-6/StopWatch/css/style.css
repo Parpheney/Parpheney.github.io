@@ -1,0 +1,31 @@
+﻿body{
+  text-align: center;
+  margin-top: 300px;
+  background-color: black;
+}
+#clock{
+color: silver;
+font-size: 230px;
+font-family: Verdana;
+}
+button{
+margin-top: 50px;
+width: 190px;
+height: 80px;
+border-radius: 16px;
+font-size: 34px;
+font-family: Arial;
+font-weight: bolder;
+}
+button:hover{
+  cursor:  pointer;
+}
+#toggle{
+  background-color: rgb(207, 201, 21);
+  color:blue;
+}
+#clear{
+  margin-left: 20px;
+  background-color: rgb(39, 69, 198);
+  color: yellow;
+}

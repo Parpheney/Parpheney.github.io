@@ -1,0 +1,55 @@
+body{
+  text-align: center;
+  margin-top: 300px;
+  background-image: url(../img/223756.png);
+}
+#text{
+  margin-top: 10px;
+  margin-left: -350px;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: bolder;
+  color: rgb(204, 168, 61);
+
+}
+#field{
+  margin-top: -20px;
+  margin-left: 350px;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: bolder;
+  color: rgb(204, 168, 61);
+}
+#clock{
+color: rgb(204, 168, 61);
+font-size: 190px;
+font-family: Verdana;
+}
+
+button{
+overflow: hidden;
+margin-top: 50px;
+width: 100px;
+height: 100px;
+border-radius: 180px;
+font-size: 25px;
+font-family: Arial;
+font-weight: bolder;
+}
+button:hover{
+  cursor:  pointer;
+}
+#toggle{
+  background-color: rgb(33, 198, 221);
+  color:rgb(125, 33, 33);
+}
+#reset{
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: rgb(22, 154, 6);
+  color: yellow;
+}
+#split{
+  background-color: rgb(78, 0, 126);
+  color:rgb(130, 170, 22);
+}
